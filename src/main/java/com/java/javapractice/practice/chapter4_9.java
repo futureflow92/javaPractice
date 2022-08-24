@@ -6,8 +6,8 @@ public class chapter4_9 {
         int sum =0;
 
         for(int i=0; i<str.length(); i++) {
-            sum += str.charAt(i)-48;
+            sum += str.charAt(i)-48; //또는 -'0'
         }
-        System.out.println("sum="+sum);
+        System.out.println("sum="+sum); //15
     }
 }

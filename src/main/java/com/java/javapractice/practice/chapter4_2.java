@@ -8,6 +8,6 @@ public class chapter4_2 {
                 sum += i;
             }
         }
-        System.out.println(sum);
+        System.out.println(sum);    //73
     }
 }

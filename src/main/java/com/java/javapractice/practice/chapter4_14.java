@@ -22,9 +22,8 @@ public class chapter4_14 {
             } else {
                 System.out.println("정답입니다.");
                 System.out.println("시도횟수는"+count+"번 입니다.");
-                break;
+                break;  //do-while문을 빠져나온다.
             }
-
         } while(true);
 
     }

@@ -8,10 +8,8 @@ public class chapter4_15 {
         int result = 0;
 
         while(tmp != 0) {
-            result = result*10 + tmp%10 ;
+            result = tmp%10 + result*10;
             tmp/=10;
-
-
         }
 
         if(number == result) {
