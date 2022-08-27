@@ -23,6 +23,7 @@ public class Array13 {
         System.out.println("hex:"+ hex);
         System.out.println("hex:"+ Arrays.toString(hex));
         System.out.println("hex:"+ new String(hex));
+        System.out.println(hex);
         System.out.println("binary:"+result);
     }
 }
