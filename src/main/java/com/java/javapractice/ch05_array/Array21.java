@@ -30,7 +30,7 @@ public class Array21 {
         do {
             for (int i = 0; i < SIZE; i++) {
                 for (int j = 0; j < SIZE; j++) {
-                    System.out.printf("%2d", bingo[i][j]);
+                    System.out.printf("%3d", bingo[i][j]);
                 }
                 System.out.println();
             }
