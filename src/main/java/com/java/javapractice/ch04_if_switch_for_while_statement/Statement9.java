@@ -1,6 +1,5 @@
 package com.java.javapractice.ch04_if_switch_for_while_statement;
 
-import javafx.scene.SnapshotParameters;
 
 import java.util.Scanner;
 
