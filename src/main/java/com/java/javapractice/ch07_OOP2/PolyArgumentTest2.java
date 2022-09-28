@@ -8,7 +8,7 @@ class Product10 {
         this.price = price;
         bonusPoint = (int)(price/10.0);
     }
-    
+
 }
 
 class Tv10 extends Product10 {

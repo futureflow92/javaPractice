@@ -10,7 +10,7 @@ class Product {
     }
 }
 
-class Tv11 extends Product {
+class Tv11 extends Product100 {
     Tv11() {
         //조상클래스의 생성자 Product (int price)를 호출한다.
         super(100);
@@ -22,7 +22,7 @@ class Tv11 extends Product {
     }
 }
 
-class Computer extends Product {
+class Computer extends Product100 {
     Computer() { super(200); }
     public String toString() { return "Computer"; }
 }
@@ -31,7 +31,7 @@ class Buyer {
     int money = 1000;
     int bonusPoint = 0;
 
-    void buy(Product p) {
+    void buy(Product100 p) {
         if(money < p.price){
             System.out.println("잔액이 부족하여 물건을 살 수 없습니다.");
             return;
